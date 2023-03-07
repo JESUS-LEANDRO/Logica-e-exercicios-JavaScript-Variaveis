@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica de programação</title>
+</head>
+<body>
+    <h1>Controle de decições</h1>
+
+    <script>
+        // pedir a usuario 1 numero //
+         var num1 = prompt (" Digite primeiro numero ");
+         num1 = parseFloat(num1);
+        // pedir a usuario 2 numero //
+         var num2 = prompt (" Digite outro numero ");
+         num2 = parseFloat(num2);
+        var media = (num1 + num2) /2;        
+        //mostra media se for maior que 5 se éreprovado ou não//
+        alert(media > 5);
+
+        if(media > 5){
+            //bloco se for verdade//
+            alert("Parebens voces foi aprovado")
+        } else {
+            //bloco mentira//
+            alert("Desculpa, te esperamos na proxima")
+        };  
+    </script>
+</body>
+</html>

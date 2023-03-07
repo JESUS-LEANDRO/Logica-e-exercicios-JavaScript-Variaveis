@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logica de programação</title>
+</head>
+<body>
+    <h1>Controle de decições</h1>
+
+    <script>
+        // jogador1 digite um numero //
+         var jogador1 = prompt (" Digite primeiro numero ");
+         jogador1 = parseInt(jogador1);
+        // jogador2 digite um numero //
+        var jogador2 = prompt (" Digite outro numero ");
+        jogador2 = parseInt(jogador2);
+        //mostra //
+        if(jogador1 === jogador2){
+            alert("Jogo empatado retorne a partida" );
+        }else{
+            var jogadasorteada = parseInt(math.random () * 2);
+        
+        if(jogadasorteada === 0){
+            if(jogador1 > jogador2){
+                alert("Ganhou jogador1");
+            } else {
+                alert("Ganhou jogador2");
+            }
+
+        } else {
+            if(jogador1 < jogador2){
+                alert("Ganhou jogador2");
+            } else {
+                alert("Ganhou jogador1");
+            }
+        }
+    }
+        
+    </script>
+</body>
+
+</html>
